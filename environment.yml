@@ -1,0 +1,23 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: spaceship_titanic
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - invoke
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - dvc
+  - nbdime
+  - numpy
+  - pandas
+  - pip
+  - pyjanitor
+  - pyprojroot
+  - python=3.10
+  - seaborn
+  - kaggle
+  
